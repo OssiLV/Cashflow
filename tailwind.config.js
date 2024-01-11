@@ -17,6 +17,9 @@ module.exports = {
             },
         },
         extend: {
+            boxShadow: {
+                Neumorphism: "-28px -28px 56px #c3bfbf 28px 28px 56px #ffffff",
+            },
             colors: {
                 border: "hsl(var(--border))",
                 input: "hsl(var(--input))",
