@@ -17,8 +17,13 @@ module.exports = {
             },
         },
         extend: {
+            fontFamily: {
+                sans: ["var(--font-inter)"],
+                mono: ["var(--font-roboto-mono)"],
+            },
             boxShadow: {
-                Neumorphism: "-28px -28px 56px #c3bfbf 28px 28px 56px #ffffff",
+                Neumorphism: "-28px -28px 56px  #ffffff",
+                Neumorphism_rose: " 20px 20px 60px #F87171",
             },
             colors: {
                 border: "hsl(var(--border))",
